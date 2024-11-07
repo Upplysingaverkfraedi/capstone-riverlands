@@ -1,58 +1,63 @@
-# Capstone verkefni 
+# Verkefnalýsing
+Verkefnið fól í sér að útbúa og hanna mælaborð sem lýsti samanburði milli Svíþjóðar og Íslands í söngvakeppninni Eurovision á 20 ára tímabili eða milli 2004-2024. Ástæðan af hverju ofantöld lönd voru valin, þau taka keppninni hvað alvarlegast af öllum löndum en hafa samt sem áður notið mjög ólíkrar velgengni í gegnum árin.  
 
-## Verkefni
-Verkefnið er tvíþætt:
+# Niðurstöður
+Ýmsar áhugaverðar niðurstöður komu í ljós við gerð mælaborðsins. Þar má meðal annars sjá að hvernig uppröðun atriða getur haft áhrif á velgengni landa í keppninni; best er að vera 16. í röðinni eða seinna. Svíþjóð og Írland hafa unnið oftast eða 8 sinnum hvor, flest lög eru í Dúr og með taktgildinu (bpm) 12-130 sem gefur til kynna að flest lög eru hress og flokkast sem electro-pop eða disco lög.  Einnig voru stig Íslands borin saman við Svíþjóðar og kom þá í ljós að Ísland gefur Svíþjóð flest sín stig en Ísland er ekki nema númer 10 hjá Svíþjóð. Áhugavert var þó að sjá að Mónakó og Ungverjaland gefa Íslandi hlutfallslega mörg stig. Annars eiga Ísland og Svíþjóð það sameiginlegt að gefa og fá sín stig frá Norðurlöndunum. 
 
-- **Skýrsla** – Þið þurfið að skila tæknilegri skýrslu þar sem þið útskýrið hvernig þið nálguðust gagnaöflun, meðhöndlun gagna, og hvaða niðurstöður þið teljið markverðastar. Þetta þarf að vera á `HTML` formi, t.d. með [RPubs](https://rpubs.com/) fyrir RMarkdown.
-- **Mælaborð og kynning** – Þið þurfið að hanna mælaborð og halda kynningu þar sem þið útskýrið mælaborðið og niðurstöðurnar fyrir bekknum. Mælaborðið getur t.d. verið hýst á [shinyapps.io](https://www.shinyapps.io/).
+# Möppustrúktúr
+```bash
+.
+├── FogSF.csv
+├── fromISL.csv
+├── FromSE.csv
+├── ISLpoints.csv
+├── LICENSE
+├── README.md
+├── SEpoints.csv
+├── TeleVsJury.csv
+├── TontegundOgBPM.csv
+├── fromISL.csv
+├── keppnihaldin.csv
+├── lengdogvote.csv
+├── losers.csv
+├── main.py
+├── main2.py
+├── main3.py
+├── main4.py
+├── main5.py
+├── main6.py
+├── main7.py
+├── main8.py
+├── main9.py
+├── main10.py
+├── main11.py
+├── winners
+└── winners.csv
+```
+# Nauðsynleg forrit og uppsetning
+## Sækja PowerBI 
+- Fyrir **mac** 
+Þarf að fara inn á þessa slóð: https://app.powerbi.com/home?experience=power-bi
+Þar sem PowerBI vefsíðan er aðeins hægt að nota á mac, ekki sjálft forritið.
+- Fyrir **Windows**
+Hægt er að downloada forritinu PowerBI með því að fara inná Microsoft Store. 
+- Sækja **Python**
+Hægt er að sækja Python á þessari slóð: https://www.python.org/downloads/
 
-## Mælaborð
-Mælaborðið er hannað fyrir samnemendur ykkar í upplýsingaverkfræði. Munið að það þarf að:
-- **Sannfæra áhorfendur**: Sýnið þeim hvernig það gagnast.
-- **Skýrt viðmót**: Þið þurfið að tryggja að það sé auðvelt í notkun og framsetningin á gögnum sé skýr.
+Hlaða niður pakkanum “pandas”
+`Import pandas as pd`
+Skrifa í Terminal til að hlaða niður: `Pip install pandas`
 
-## Skipulag
-Það eru ný teymi með 3-4 einstaklingum. Þið þurfið að skrá ykkur í Canvas og samþykkja GitHub Classroom verkefni með því að nota teymisnafnið ykkar.
-
-Í tímanum þann 21. október voru lyfturæður um möguleg capstone verkefni. Þið þurfið að velja eitt þeirra verkefna til að vinna með (aðeins eitt teymi má vinna með hvert efni).
-
-## Skil og kynning
-- **Skil á skýrslu**: `PDF` (eða `html`) þarf að vera komið inn á Canvas og GitHub repo fyrir lok dags 18. nóvember (mánudagur).
-- **Kynning á mælaborði**: Þið kynnið mælaborðið í tíma þann 21. nóvember (fimmtudagur). **Skyldumæting**.
-
-## Frjálst val á framsetningu
-Þið getið verið skapandi með framsetningu. Það er mikilvægt að myndirnar og mælaborðið hjálpi til við að segja sögu um gögnin sem fangar athygli áhorfenda.
-
-### Atriði sem skýrslan þarf að innihalda:
-- **Lýsing á gagnaöflun** – Hvaðan komu gögnin og hvernig voru þau fengin?
-- **Gagnavinnsla** – Hvernig voru gögnin meðhöndluð? Notið REGEX til að laga texta.
-- **Markverðustu niðurstöður** – Hverjar voru helstu niðurstöður?
-- **Mælaborðið** – Hvað gerðuð þið og hver var tilgangur þess?
-
-## GitHub Repo
-Þið þurfið að skila öllum skrám í GitHub repo teymisins. 
-
-Munið að `README` skráin þarf að innihalda: 
-- **TL;DR** – Stutt lýsing á verkefninu og niðurstöðum.
-- **Strúktur** – Lýsing á möppum og mikilvægum skrám.
-- **Keyrsluuppsetning** – Hvernig kóði og gagnagrunnur eru settir upp á öðrum tölvum. Öll lykilorð og notendanöfn skulu vera geymd með umhverfisbreytum.
-
-## Einkunnagjöf
-Einkunn verður byggð á:
-- **Gagnafrásögn** – Hversu skýr og aðgengileg er kynningin?
-- **Mælaborðið** – Hversu notendavænt og skýrt er það?
-
----
-
-## Viðvörun: Ekki vista lykilorð í GitHub repo
-
-Að vista lykilorð, notendanöfn eða aðrar viðkvæmar upplýsingar í GitHub repo sem er opinber (public)
-er mjög alvarlegt öryggisbrot. Hér eru nokkrar ástæður fyrir því að það má aldrei gera þetta:
-
-1. **Öryggisbrestur** – Opnar fyrir öryggisbrot.
-2. **Kostnaður** – Þriðji aðili gæti misnotað gögnin.
-3. **Git útgáfusaga** – Það er erfitt að fjarlægja viðkvæmar upplýsingar úr útgáfusögunni.
-4. **Orðspor** – Slíkar villur geta skaðað orðspor þitt sem forritari.
+**Opna .pbic skrána til að skoða mælaborðið:**
+Aðeins hægt í Windows. 
+1. Opnið skránna Capstone2.pbix.
+2. Ýtið á view raw til að opna skránna. 
 
 
-  
+# Keyrsla á kóðanum 
+Til þess að keyra kóðann er nóg að skrifa í terminal  `./start.sh` (þá birtast allar skrár)
+Ef þú vilt keyra ákveðna skrá en nóg að skrifa í terminal `python3 (nafn á skrá).py`
+
+
+
+
