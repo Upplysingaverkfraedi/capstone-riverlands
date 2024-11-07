@@ -48,8 +48,10 @@ Hlaða niður pakkanum “pandas”
 `Import pandas as pd`
 Skrifa í Terminal til að hlaða niður: `Pip install pandas`
 
-Opna .pbic skrána til að skoða mælaborðið 
-https://reiknistofnun-my.sharepoint.com/:u:/r/personal/elj50_hi_is1/Documents/Capstone_v02.pbix?csf=1&web=1&e=MpKULa
+**Opna .pbic skrána til að skoða mælaborðið:**
+Aðeins hægt í Windows. 
+1. Opnið skránna Capstone2.pbix.
+2. Ýtið á view raw til að opna skránna. 
 
 
 # Keyrsla á kóðanum 
