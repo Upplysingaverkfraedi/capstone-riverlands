@@ -1,1 +1,1 @@
-python3 main.py; for i in {2..11}; do python3 main$i.py; done
+python3 main.py; for i in {3..11}; do python3 main$i.py; done
