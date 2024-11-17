@@ -19,39 +19,7 @@ Fyrir flesta gagnagrunna, var vefslóðin afrituð og sett inn í tiltekinn kó�
 breyttust í CSV skrá. Engar áskoranir tengdust gagnaöfluninni, gekk mjög smurt fyrir sig.
 Meiri áskorun fylgdi gagnagrunnum sem voru unnir í Postgres þar sem þurfti að tengjast gagnagrunninum, útbúa töflur og
 skrifa inní þær. Einnig þurfti að útbúa utanaðkomandi lykla (foreign key) sem gegna mikilvægu hlutverki í að viðhalda
-gagnatengslum milli taflna.
-
-Notast var við Power BI til að vinna með gögnin, og því var Power BI hlaðið niður með neðantöldum skrefum:
-
-**Windows:**
-
-1. Fyrst þarf að download SQLite ODBC 64 bits (ekki 32 bits) inn á tölvuna
-2. Opna ODBC, smella á Add…
-3. Velja SQlite3 ODBC Driver
-4. Velja skrána isfolkid.db (sem var búið að hlaða niður frá Github frá sqlite verkefninu)
-5. Opna Power BI
-6. Búa til nýtt report
-7. Ýta á Get data → more → ODBC
-8. Þá ætti skráin að birtast, ýta á Windows (ekki vera inná Database) og ýta á að halda áfram
-9. Þá opnast Navigator og hakað í þær töflur sem á að nota við gerð grafa
-
-**macOS:**
-
-Þar sem Power BI er microsoft forrit þá er ekki hægt að nota það á sama máta og með windows stýrikerfi. Einfaldasta
-leiðin er að nota vefútgáfun: app.powerbi.com
-Þeir sem er í háskólanum geta nýtt sér þessa leið í gegnum háskóla office pakkann. Þar er hægt að opna skrár sem hafa
-verið hlaðnar niður í tölvuna og hægt að vinna í þeim.
-
-Notast var við **Datagrip (Postgres)** vegna gagnagrunna og til að hlaða því niður þarf að:
-
-1. Fara á þennan hlekk: https://www.jetbrains.com/datagrip/
-2. Ýtir á Download og velur gerð tölvu sem er verið að nota
-
-Einnig þarf að hlaða niður **Docker** til að skoða töflur í Postgres.
-
-1. Fylgja þessari slóð: https://www.docker.com/
-2. Ýta á Download Docker Desktop og velja þar gerð tölvu sem verið er að nota
-3. Skrifa í Terminal: docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres
+gagnatengslum milli taflna. Notast var við Power BI til að vinna með gögnin.
 
 # **3. Gagnavinnsla – Hvernig voru gögnin meðhöndluð?**
 
