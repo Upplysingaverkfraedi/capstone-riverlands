@@ -42,6 +42,11 @@ leiðin er að nota vefútgáfun: app.powerbi.com
 Þeir sem er í háskólanum geta nýtt sér þessa leið í gegnum háskóla office pakkann. Þar er hægt að opna skrár sem hafa
 verið hlaðnar niður í tölvuna og hægt að vinna í þeim.
 
+Notast var við **Datagrip (Postgres)** vegna gagnagrunna og til að hlaða því niður þarf að:
+
+1. Fara á þennan hlekk: https://www.jetbrains.com/datagrip/
+2. Ýtir á Download og velur gerð tölvu sem er verið að nota
+
 Einnig þarf að hlaða niður **Docker** til að skoða töflur í Postgres.
 
 1. Fylgja þessari slóð: https://www.docker.com/
@@ -78,18 +83,18 @@ birtist til hliðar listi af öllum þeim löndum sem héldu keppnina á þessu 
 síðan inná kortið og hægt er að sjá fjölda þeirra skipta sem keppnin hefur verið haldin í hverju landi með því að sveima
 yfir það land sem maður vill kanna.
 
+<div align="center">
+    <img src="myndir/graf1.png" />
+    <br/>
+    <em>Graf 1: Sýnir staðsetningu keppna.</em>
+</div>
+
 Grafið að neðan *(graf 2)* sýnir tímann sem fer í flutning á lögum (ljósblár), skemmtiatriðum (dökkblár) og kosningum
 (appelsínugulur) yfir árin. Þetta graf er gagnvirkt þar sem hægt er að velja ákveðið tímabil sem notandinn vill skoða
 með rennislánni. Áhugavert er að sjá að í gegnum árin, fer meiri tími í bæði skemmtiatriði og kosningar, í kjölfarið
 lengist lengd keppninnar.
 Eftir 2000 sést að aukin áhersla hefur verið í að fjölga skemmtiatriðum, en tíminn sem fer í skemmtiatriði er nú mun
 meiri en áður á 20.öld.
-
-<div align="center">
-    <img src="myndir/graf1.png" />
-    <br/>
-    <em>Graf 1: Sýnir staðsetningu keppna.</em>
-</div>
 
 <div align="center">
     <img src="myndir/graf2.png" />
@@ -137,6 +142,7 @@ atriðum jafnt yfir keppnina.
     <br/>
     <em>Graf 5: Samband uppröðunar og fjölda tapa.</em>
 </div>
+
 
 *Graf 6*, sýnir samanlagðan stigafjölda siguratriða (y-ás) eftir löndum (x-ás). Það kemur ef til vill ekki mörgum á
 óvart að sjá Svíþjóð þar sem hún er ein mesta popp- og Eurovision þjóð. Það gæti þó komið mörgum á óvart að Írland sé
@@ -208,6 +214,7 @@ skoða mælaborðið inná github (ýta á mælaborð og view raw).
 
 - Gerðar voru **segðir (regex):** Til að lesa og laga texta fyrir flesta gagnagrunna af síðu á netinu. Sem dæmi: URL =
   "https://eschome.net/databaseoutput419.php"
+
   ![tengsl1](myndir/tengsl1.png)
 
   Þá var notast við Regex101.com og glósuheftið frá Helgu til að vinna segðirnar.
