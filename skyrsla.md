@@ -210,4 +210,15 @@ gögn eins og í þessu tilfelli Eurovision. Power BI reyndist vera frábært ve
 með keppnninni síðan þeir muna eftir sér. Þetta var því kjörið tækifæri til að sjá tölfræðina í kringum keppnina sjálfa.
 Gröfin í mælaborðinu voru skýr og gagnvirk og lýstu tilgangi verkefnisins vel þar sem það gaf heildarsýn á stigagjöf,
 vinsældir laga (hvað varðar takt og tóntegund), samanburð milli Íslands og Svíþjóðar og hvernig keppnin hefur þróast
-hvað varðar uppsetningu og lengd atriða í gegnum tíðina. 
+hvað varðar uppsetningu og lengd atriða í gegnum tíðina.
+
+# **9. Heimildir**
+
+E.S.C. Home. (n.d.). Eurovision Song Contest Home. Sótt af: https://eschome.net/
+
+Josago97. (n.d.). EurovisionDataset. GitHub. Sótt af: https://github.com/josago97/EurovisionDataset
+
+Spijkervet. (n.d.). Eurovision dataset. GitHub. Sótt af: https://github.com/Spijkervet/eurovision-dataset
+
+Ingimundardóttir, H. (2024). PythonRegex. [PDF-skjal].
+
