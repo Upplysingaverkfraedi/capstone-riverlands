@@ -38,7 +38,6 @@ Leitað var að gagnagrunnum með nytsamlegum upplýsingum á netinu sem voru s�
 ├── .env
 ├── .gitignore
 ├── Capstone.pbix
-├── Capstone2.pbix
 ├── FogSF.csv
 ├── fromISL.csv
 ├── FromSE.csv
