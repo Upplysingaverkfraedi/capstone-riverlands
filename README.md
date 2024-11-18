@@ -131,6 +131,6 @@ Graf 1: *Sýnir staðsetningu keppna* og Graf 2: *Lengd Eurovision frá upphafi*
 - Í *models* inniheldur klasa sem restin í forritinu getur notað. 
 
 Hinar töflurnar voru úr csv.skrám. 
-Hér að neðan má sjá hvaða .py skrá og .csv skrá á við um hvaða graf í mælaborði:
+Hér að neðan má sjá hvaða .py skrá og .csv skrá á við um hvaða graf í mælaborði: 
 
 ![Tafla 1](tafla1.png)
