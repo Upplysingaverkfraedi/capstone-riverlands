@@ -119,3 +119,17 @@ Opnið skránna `Capstone.pbix.`
 # Keyrsla á kóðanum 
 Til þess að keyra kóðana er nóg að skrifa í terminal  `./start.sh` (þá birtast allar skrár).
 Ef þú vilt keyra ákveðna skrá en nóg að skrifa í terminal `python3 (nafn á skrá).py`
+
+# ATH: Tenging gagna og mælaborðs
+Þess má geta að tvær töflur voru unnar í Postgres og voru þær notaðar til að gera fyrstu tvö gröfin í mælaborðinu. 
+Graf 1: *Sýnir staðsetningu keppna*
+Graf 2: *Lengd Eurovision frá upphafi*
+
+## Í forrituninni: 
+Í möppunni config sér um að lesa inn kerfisbreytur
+Í möppunni data sér um að vista í grunni og tengjast postgres (keppnir, lengdKeppna)
+Í möppunni logic má finna kóða sem skrapar og vinnur gögnin. 
+Í models inniheldur klasa sem restin í forritinu getur notað. 
+
+Hinar töflurnar voru úr csv.skrám. 
+Hér að neðan má sjá hvaða .py skrá og .csv skrá á við um hvaða graf í mælaborði:
