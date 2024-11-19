@@ -24,7 +24,6 @@ Leitað var að gagnagrunnum með nytsamlegum upplýsingum á netinu sem voru s�
 │   └── lengdKeppna.py
 ├── myndir /
 │   ├── graf1.png
-│   ├── graf10.png
 │   ├── graf2.png
 │   ├── graf3.png
 │   ├── graf4.png
@@ -33,6 +32,7 @@ Leitað var að gagnagrunnum með nytsamlegum upplýsingum á netinu sem voru s�
 │   ├── graf7.png
 │   ├── graf8.png
 │   ├── graf9.png
+│   ├── graf10.png
 │   ├── tengsl1.png
 │   └── tengsl2.png
 ├── .env
@@ -59,6 +59,7 @@ Leitað var að gagnagrunnum með nytsamlegum upplýsingum á netinu sem voru s�
 ├── SEpoints.csv
 ├── skyrsla.md
 ├── start.sh
+├── tafla1.png
 ├── TeleVsJury.csv
 ├── TontegundOgBPM.csv
 ├── winners
