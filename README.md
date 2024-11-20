@@ -74,15 +74,6 @@ Leitað var að gagnagrunnum með nytsamlegum upplýsingum á netinu sem voru s�
 
 - Fyrir **Windows:**
 1. Hægt er að downloada forritinu Power BI með því að fara inná Microsoft Store. 
-2. Fyrst þarf að download SQLite ODBC 64 bits (ekki 32 bits) inn á tölvuna
-3. Opna ODBC, smella á *Add…*
-4. Velja SQlite3 ODBC Driver
-5. Velja CSV skrána sem þú vilt nota
-6. Opna Power BI
-7. Búa til nýtt report
-8. Ýta á Get data → more → ODBC
-9. Þá ætti skráin að birtast, ýta á Windows (ekki vera inná Database) og ýta á að halda áfram
-10. Þá opnast Navigator og hakað í þær töflur sem á að nota við gerð grafa
 
 ## Sækja **Python**
 1. Hægt er að sækja Python á þessari slóð https://www.python.org/downloads/
